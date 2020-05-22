@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { identifierModuleUrl } from '@angular/compiler';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'game-manager-tp-note';
+}
+
+export class Category {
+  id: number;
+  name: string;
 }
